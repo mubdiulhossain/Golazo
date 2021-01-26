@@ -1,0 +1,94 @@
+body {
+	background-color: #F5F5F5;
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif;
+}
+
+header {
+	color: white;
+	background-color: #3D6271;
+}
+
+.headerAlign {
+    align-content: center;
+    margin-left: 1em;
+}
+
+.center {
+	padding: 13em;
+}
+
+td {
+	width: 50%;
+}
+
+.left {
+	text-align: left;
+}
+
+input {
+	border-radius: 25px;
+	border: 1px solid grey;
+}
+
+.submit {
+	margin: 2em;
+	padding: 8px;
+	background-color: #3d6271;
+	color: white;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+.submit:hover {
+	background-color:white;
+	color:black;
+}
+
+footer {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-top: 1px solid #9E9B9B;
+    background-color: #e8e7e7;
+    position: relative;
+    height: 3em;
+    margin: auto;
+    display: flex;;
+}
+
+.footer1 {
+	width: 86%;
+	height: 100%;
+	margin: auto;
+}
+
+.footerleft {
+    position: relative;
+    width: auto;
+    float: left;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #9E9B9B;
+    padding-bottom: 1em;
+}
+
+.footerleft a {
+	font-size: 11px;
+	margin-right: 1em;
+	padding: 0em;
+	background-color: #e8e7e7;
+	color: #4e4646;
+	text-decoration: none;
+	border-radius: 0em;
+}
+
+.footerleft a:hover {
+	color: #1D57CB;
+}
+
+.footerRight {
+    padding: 0em 0em 0em 3em;
+    margin-left: 74%;
+}
+
